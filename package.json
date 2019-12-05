@@ -3,14 +3,17 @@
 	"version": "0.0.1",
 	"description": "This is a boilerplate of an Apify actor.",
 	"dependencies": {
-		"apify": "^0.16.0",
+		"apify": "^0.17.0",
+		"camelcase-keys-recursive": "^0.8.3",
+		"moment": "^2.24.0",
+		"querystring": "^0.2.0",
 		"request": "^2.88.0",
 		"request-promise": "^4.2.5",
 		"request-promise-native": "^1.0.8"
 	},
 	"devDependencies": {},
 	"scripts": {
-		"start": "node main.js",
+		"start": "node src/main.js",
 		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
 	},
 	"author": "It's not you it's me",
