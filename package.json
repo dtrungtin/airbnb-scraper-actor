@@ -5,7 +5,7 @@
 	"dependencies": {
 		"apify": "^0.17.0",
 		"camelcase-keys-recursive": "^0.8.3",
-		"moment": "^2.24.0",
+		"moment": "^2.29.4",
 		"querystring": "^0.2.0",
 		"request": "^2.88.0",
 		"request-promise": "^4.2.5",
